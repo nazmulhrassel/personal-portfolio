@@ -67,8 +67,11 @@
 .navbar-nav li {
  padding-top: 10px; 
 }
+.banner-section .row{
+    min-height: 110vh;
+}
 .banner-content {
-    margin-top: 22%;
+    margin-top: 28%;
 }
 .banner-content h1 {
     font-size: 40px;
@@ -132,15 +135,39 @@
     padding-left: 20px;
     padding-bottom: 25px;
 }
+
+.resume-box:hover .resume span{
+    color: inherit;
+}
+.resume-box:hover .resume h4{
+    color: inherit;
+}
+.resume-box:hover::after{
+ 
+background: #f4f6f7;
+border: 2px solid #40afcc78; 
+box-shadow: 0px 0px 10px 2px #c5bdbdc4; 
+z-index: 1;
+}
 .resume-box:hover .resume{
     background-image: none;
     background-repeat: none;
-    padding: 10px;
-    box-shadow: 0 1px 1px 0px #40afccba;
+    padding: 0px;
+    box-shadow: none;
 }
 .resume-box .resume{
+    transition: 0;
+    padding: 0px;
+    
+}
+
+
+
+
+
+.resume-box .resume{
     transition: 0.5s;
-    padding: 10px 0;
+    padding: 0px 0;
     
 }
 .resume-box .resume p{
@@ -233,7 +260,7 @@
 
 @media (max-width: 767.5px){
 .banner-section {
-    min-height: 90vh;
+    min-height: 100vh;
 }
 .navbar-brand img{
 		max-width: 80%;
@@ -269,30 +296,30 @@
      width: 0%; 
 }
  .banner-content {
-    margin-top: 23%;
+    margin-top: 35%;
 }
 .banner-content h1 {
-    font-size: 30px;
+    font-size: 35px;
     
 }
 .banner-content span {
-    font-size: 30px;
+    font-size: 35px;
     
 }
 .banner-content p {
     
-    font-size: 13px;
-    width: 70%;
+    font-size: 14px;
+    width: 80%;
     padding: 12px 0;
     
     }
 .banner-content ul li a .cv{
     
-    font-size: 13px;    
+    font-size: 15px;    
 }
 .banner-content ul li a .portfolio{
     
-    font-size: 13px;    
+    font-size: 15px;    
 }
 
 .about-section {
@@ -328,13 +355,28 @@
 .skill-hvr {
     margin-bottom: 20px;
 }
-
-
+.resume-box:hover .resume span{
+    color: inherit;
+}
+.resume-box:hover .resume h4{
+    color: inherit;
+}
+.resume-box:hover::after{
+ 
+background: #f4f6f7;
+border: 2px solid #40afcc78; 
+box-shadow: 0px 0px 10px 2px #c5bdbdc4; 
+z-index: 1;
+}
 .resume-box:hover .resume{
     background-image: none;
     background-repeat: none;
-    padding: 10px;
+    padding: 0px;
     box-shadow: none;
+}
+.resume-box .resume{
+    transition: 0;
+    padding: 0px;
     
 }
 
@@ -454,38 +496,45 @@
 .social-icon{
 	display: none;
 }
+.banner-section .row{
+    min-height: 90vh;
+}
  .banner-content {
-    margin-top: 33%;
+    margin-top: 40%;
 }
 .banner-content h1 {
-    font-size: 25px;
+    font-size: 30px;
     
 }
 .banner-content span {
-    font-size: 25px;
+    font-size: 30px;
     
 }
 .banner-content p {
     
-    font-size: 12px;
-    width: 65%;
+    font-size: 14px;
+    width: 80%;
     padding: 12px 0;
     
     }
 .banner-content ul li .cv {
-    font-size: 10px;
+    font-size: 15px;
 }
 .banner-content ul li .portfolio {
-    font-size: 10px;
+    font-size: 15px;
 }
 
 
 .about-section {
-    padding: 30px 50px 30px 50px;
+    padding: 30px 20px 30px 20px;
+}
+.about-content p {
+    padding: 5px;
+    font-size: 14px;
 }
 .about-img {
     margin-top: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 
 }
 
@@ -501,14 +550,18 @@
 }
 .skills-section {
      padding-bottom: 0px; 
+
 }
+
 .skills-section .row h2 {    
     font-size: 14px;
     padding: 10px 0 5px 0;    
 }
 .resume-section{
-	padding: 30px 50px 30px 50px;
+	padding: 30px 10px 30px 10px;
+
 }
+
 .resume-section .row h3 {
     font-size: 18px;
     margin-bottom: 25px;
@@ -520,6 +573,31 @@
 .resume-box .resume h5{
     max-width: 400px;    
 }
+.resume-box:hover .resume span{
+    color: inherit;
+}
+.resume-box:hover .resume h4{
+    color: inherit;
+}
+.resume-box:hover::after{
+ 
+background: #f4f6f7;
+border: 2px solid #40afcc78; 
+box-shadow: 0px 0px 10px 2px #c5bdbdc4; 
+z-index: 1;
+}
+.resume-box:hover .resume{
+    background-image: none;
+    background-repeat: none;
+    padding: 0px;
+    box-shadow: none;
+}
+.resume-box .resume{
+    transition: 0;
+    padding: 0px;
+    
+}
+
 
 .getInTouch .in-box {
     padding: 0 40px;
