@@ -4,7 +4,7 @@ $(function(){
 	$.fakeLoader({
 
 // Time in milliseconds for fakeLoader disappear
-timeToHide:1500, 
+timeToHide:3000, 
 
 // 'spinner1', 'spinner2', 'spinner3', 'spinner4', 'spinner5', 'spinner6', 'spinner7' 
 spinner:"spinner4",//Options: 
